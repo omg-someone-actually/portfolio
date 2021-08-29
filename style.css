@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(40,43,48);
+}
+
+a {
+    color: darkcyan;
+}
+
+.intro {    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    transition: all 0.5s;  
+    transition-timing-function: ease-in-out;
+}
+.intro:hover {
+    font-size: 50px;
+}
+
+p, li {
+    font-size: 25px;
+    background-color: rgb(40,43,48);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    width: max-content;
+    transition: all 0.5s;  
+    transition-timing-function: ease-in-out;
+}
+
+li:hover, p:hover {
+    background-color: rgb(66,69,73);
+    font-size: 30px;
+}
+div {
+    background-color: rgb(66,69,73);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    width: max-content;
+    transition: all 0.5s;  
+    transition-timing-function: ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textRight {
+    margin-left: 500px;
+    margin-right: auto;
+}
+
+.textLeft {
+    margin-left: auto;
+    margin-right: 500px;
+}
+
+.textRight:hover {
+    margin-left: 600px;
+    margin-right: auto;
+}
+
+.textLeft:hover {
+    margin-left: auto;
+    margin-right: 600px;
+}
